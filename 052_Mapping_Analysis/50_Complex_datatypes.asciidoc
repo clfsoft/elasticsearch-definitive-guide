@@ -21,7 +21,7 @@
 ====
 当你从 Elasticsearch 得到一个文档，每个数组的顺序和你当初索引文档时一样。你得到的 `_source` 域，包含与你索引的一模一样的 JSON 文档。
 
-但是，数组是以多值域 _索引的_&#x2014;可以搜索，但是无序的。 ((("indexing", "of arrays")))((("arrays", "indexed as multi-value fields"))) 在搜索的时候，你不能指定 “第一个” 或者 “最后一个”。 更确切的说，把数组想象成 _装在袋子里的值_ 。
+但是，数组是以多值域 _索引的_&#x2014;可以搜索，但是无序的。 ((("indexing", "of arrays")))((("arrays", "indexed as multi-value fields"))) 在搜索的时候，你不能指定 “第一个” 或者 “最后一个”。 更确切的说，把数组想象成 _一个背包数据结构_ 。
 ((("arrays", "empty")))
 ====
 
